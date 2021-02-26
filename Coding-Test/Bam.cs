@@ -1,4 +1,5 @@
-﻿namespace Coding_Test
+﻿using System;
+namespace Coding_Test
 {
      class Bam
     {
@@ -16,15 +17,13 @@
         }
 
         //FIRST AMOUNT CALCULATION
-
          public decimal EquationForOutput()
         {
             Amount = ((int)(CreditLimit * .5));
             if (AdvanceAmount <= CreditLimit * .5)
             {
                 Amount = AdvanceAmount;
-                return Amount;
-               
+               return Amount;
             }
             return Amount;
         }
