@@ -1,14 +1,14 @@
 ﻿using System;
 namespace Coding_Test
 {
-     class Bam
+     class SetUp
     {
         public static int CreditLimit { get; set; }
         public static int AdvanceAmount { get; set; }
         public static int Amount { get; set; }
         public static int APR { get; set; }
 
-        public Bam(int creditLimit, int advanceAmount, int amount, int apr)
+        public SetUp(int creditLimit, int advanceAmount, int amount, int apr)
         {
             CreditLimit = creditLimit;
             AdvanceAmount = advanceAmount;

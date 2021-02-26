@@ -14,7 +14,7 @@ namespace Coding_Test
             Console.WriteLine("Enter Advance Amount");
             int advanceAmount = (int)Convert.ToInt64(Console.ReadLine());
 
-            Bam nums = new Bam(creditLimit, advanceAmount, amount, apr);
+            SetUp nums = new SetUp(creditLimit, advanceAmount, amount, apr);
             amount = (int)nums.EquationForOutput();
 
             Console.WriteLine($"Amount: {amount}");
